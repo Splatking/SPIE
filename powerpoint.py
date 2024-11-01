@@ -16,7 +16,7 @@ title = slide.shapes.title
 subtitle = slide.placeholders[1]
 
 title.text = f"Maandrapportage van: {now:%B %Y}."
-subtitle.text = "Gegenereerd met Python"
+subtitle.text = "Gegenereerd met Python" + "Leuk dat jullie dit lezen"
 
 left = Inches(8)
 top = Inches(.2)
